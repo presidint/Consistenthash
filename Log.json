@@ -1,0 +1,13 @@
+{
+	"Log_level":4,
+	"Log_path":"./syslog"
+}
+/*
+ *0:CLOSE
+ *1:ALTER
+ *2:ERROR
+ *3:WARNNING
+ *4:MSG
+ *5:DEBUG
+*/
+
