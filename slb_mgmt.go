@@ -1,7 +1,7 @@
 package main
 
 import (
-	"VSLB/consistentHash"
+	"github.com/billhathaway/consistentHash"
 	"fmt"
 	"net/http"
 	"strings"
