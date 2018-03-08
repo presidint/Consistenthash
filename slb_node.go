@@ -1,12 +1,10 @@
 package main
 
 import (
-	"fmt"
 	"io/ioutil"
 	"net/http"
 	"time"
 	. "utils"
-
 	"github.com/json-iterator/go"
 )
 
@@ -99,6 +97,5 @@ HT_ERROR:
 	this.IsLive = false
 	mgmt.HashList.Remove(this.PrivateAddr)
 	VLOG(VLOG_ERROR, "Node[%s] is Disable.", this.PrivateAddr)
-	fmt.Printf("Node[%s] is Disable.\n", this.PrivateAddr)
 	return
 }
